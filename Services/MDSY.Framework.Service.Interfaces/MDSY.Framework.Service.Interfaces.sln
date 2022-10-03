@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.Service.Interfaces", "MDSY.Framework.Service.Interfaces.csproj", "{0D39BDFD-C8EB-4491-AABE-125615A95AAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D39BDFD-C8EB-4491-AABE-125615A95AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D39BDFD-C8EB-4491-AABE-125615A95AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D39BDFD-C8EB-4491-AABE-125615A95AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D39BDFD-C8EB-4491-AABE-125615A95AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAF7087F-6E28-45DB-807F-0EB6A4400FE3}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://daltfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MDSY.Framework.Service.Interfaces.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal

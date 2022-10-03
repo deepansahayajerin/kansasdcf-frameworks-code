@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.Buffer.Common", "MDSY.Framework.Buffer.Common\MDSY.Framework.Buffer.Common.csproj", "{C09C1AAA-5C12-40D9-B5E0-27D4EF177D64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.Buffer.Interfaces", "MDSY.Framework.Buffer.Interfaces\MDSY.Framework.Buffer.Interfaces.csproj", "{63DE8A32-8F5D-4B47-81DB-8008BA68AB5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.Buffer.BaseClasses", "MDSY.Framework.Buffer.BaseClasses\MDSY.Framework.Buffer.BaseClasses.csproj", "{D5455049-8DAB-4882-93E8-4180102536F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.Buffer.Extensions", "MDSY.Framework.Buffer.Extensions\MDSY.Framework.Buffer.Extensions.csproj", "{C335E44F-AD90-4122-8253-3CCCEC8ED7E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.Buffer.Services", "MDSY.Framework.Buffer.Services\MDSY.Framework.Buffer.Services.csproj", "{65F7F8C1-6111-45AF-B6C2-94BF8BDC7260}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.Configuration.Common", "..\Configuration\MDSY.Framework.Configuration.Common\MDSY.Framework.Configuration.Common.csproj", "{4AE29207-C4BF-4104-B367-3590B9DD9C75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.Buffer.Unity", "MDSY.Framework.Buffer.Unity\MDSY.Framework.Buffer.Unity.csproj", "{8510AD76-1111-4608-829A-B26B2A6F627D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.Buffer.Implementation", "MDSY.Framework.Buffer.Implementation\MDSY.Framework.Buffer.Implementation.csproj", "{502E10E3-1466-4158-8BF3-2C9CD56D6A82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C09C1AAA-5C12-40D9-B5E0-27D4EF177D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09C1AAA-5C12-40D9-B5E0-27D4EF177D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09C1AAA-5C12-40D9-B5E0-27D4EF177D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09C1AAA-5C12-40D9-B5E0-27D4EF177D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DE8A32-8F5D-4B47-81DB-8008BA68AB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DE8A32-8F5D-4B47-81DB-8008BA68AB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DE8A32-8F5D-4B47-81DB-8008BA68AB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DE8A32-8F5D-4B47-81DB-8008BA68AB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5455049-8DAB-4882-93E8-4180102536F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5455049-8DAB-4882-93E8-4180102536F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5455049-8DAB-4882-93E8-4180102536F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5455049-8DAB-4882-93E8-4180102536F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C335E44F-AD90-4122-8253-3CCCEC8ED7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C335E44F-AD90-4122-8253-3CCCEC8ED7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C335E44F-AD90-4122-8253-3CCCEC8ED7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C335E44F-AD90-4122-8253-3CCCEC8ED7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F7F8C1-6111-45AF-B6C2-94BF8BDC7260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F7F8C1-6111-45AF-B6C2-94BF8BDC7260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F7F8C1-6111-45AF-B6C2-94BF8BDC7260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F7F8C1-6111-45AF-B6C2-94BF8BDC7260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE29207-C4BF-4104-B367-3590B9DD9C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE29207-C4BF-4104-B367-3590B9DD9C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE29207-C4BF-4104-B367-3590B9DD9C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE29207-C4BF-4104-B367-3590B9DD9C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8510AD76-1111-4608-829A-B26B2A6F627D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8510AD76-1111-4608-829A-B26B2A6F627D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8510AD76-1111-4608-829A-B26B2A6F627D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8510AD76-1111-4608-829A-B26B2A6F627D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502E10E3-1466-4158-8BF3-2C9CD56D6A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502E10E3-1466-4158-8BF3-2C9CD56D6A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502E10E3-1466-4158-8BF3-2C9CD56D6A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502E10E3-1466-4158-8BF3-2C9CD56D6A82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAB28395-F90B-4957-99D6-81ADAB65D3B0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://daltfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\Configuration\\MDSY.Framework.Configuration.Common\\MDSY.Framework.Configuration.Common.csproj
+		SccProjectName1 = ../Configuration/MDSY.Framework.Configuration.Common
+		SccLocalPath1 = ..\\Configuration\\MDSY.Framework.Configuration.Common
+		SccProjectUniqueName2 = MDSY.Framework.Buffer.BaseClasses\\MDSY.Framework.Buffer.BaseClasses.csproj
+		SccProjectName2 = MDSY.Framework.Buffer.BaseClasses
+		SccLocalPath2 = MDSY.Framework.Buffer.BaseClasses
+		SccProjectUniqueName3 = MDSY.Framework.Buffer.Common\\MDSY.Framework.Buffer.Common.csproj
+		SccProjectName3 = MDSY.Framework.Buffer.Common
+		SccLocalPath3 = MDSY.Framework.Buffer.Common
+		SccProjectUniqueName4 = MDSY.Framework.Buffer.Extensions\\MDSY.Framework.Buffer.Extensions.csproj
+		SccProjectName4 = MDSY.Framework.Buffer.Extensions
+		SccLocalPath4 = MDSY.Framework.Buffer.Extensions
+		SccProjectUniqueName5 = MDSY.Framework.Buffer.Interfaces\\MDSY.Framework.Buffer.Interfaces.csproj
+		SccProjectName5 = MDSY.Framework.Buffer.Interfaces
+		SccLocalPath5 = MDSY.Framework.Buffer.Interfaces
+		SccProjectUniqueName6 = MDSY.Framework.Buffer.Services\\MDSY.Framework.Buffer.Services.csproj
+		SccProjectName6 = MDSY.Framework.Buffer.Services
+		SccLocalPath6 = MDSY.Framework.Buffer.Services
+		SccProjectUniqueName7 = MDSY.Framework.Buffer.Unity\\MDSY.Framework.Buffer.Unity.csproj
+		SccProjectName7 = MDSY.Framework.Buffer.Unity
+		SccLocalPath7 = MDSY.Framework.Buffer.Unity
+		SccProjectUniqueName8 = MDSY.Framework.Buffer.Implementation\\MDSY.Framework.Buffer.Implementation.csproj
+		SccProjectName8 = MDSY.Framework.Buffer.Implementation
+		SccLocalPath8 = MDSY.Framework.Buffer.Implementation
+	EndGlobalSection
+EndGlobal

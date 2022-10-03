@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Version>1.0.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\bin</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\bin</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MDSY.Framework.Buffer.BaseClasses">
+      <HintPath>..\..\bin\net6.0\MDSY.Framework.Buffer.BaseClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Common">
+      <HintPath>..\..\bin\net6.0\MDSY.Framework.Buffer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Extensions">
+      <HintPath>..\..\bin\net6.0\MDSY.Framework.Buffer.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Interfaces">
+      <HintPath>..\..\bin\net6.0\MDSY.Framework.Buffer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Services">
+      <HintPath>..\..\bin\net6.0\MDSY.Framework.Buffer.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Configuration.Common">
+      <HintPath>..\..\bin\net6.0\MDSY.Framework.Configuration.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Core">
+      <HintPath>..\..\bin\net6.0\MDSY.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Interfaces">
+      <HintPath>..\..\bin\net6.0\MDSY.Framework.Interfaces.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

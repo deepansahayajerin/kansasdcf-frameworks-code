@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.IO.RemoteBatch", "MDSY.Framework.IO.RemoteBatch.csproj", "{C4F1655B-6A47-41B2-BD15-60CA672E2332}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDSY.Framework.IO.Online", "..\MDSY.Framework.IO.Online\MDSY.Framework.IO.Online.csproj", "{10C8C489-479A-440C-B6C8-09D3AF38F0CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4F1655B-6A47-41B2-BD15-60CA672E2332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F1655B-6A47-41B2-BD15-60CA672E2332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F1655B-6A47-41B2-BD15-60CA672E2332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F1655B-6A47-41B2-BD15-60CA672E2332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C8C489-479A-440C-B6C8-09D3AF38F0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C8C489-479A-440C-B6C8-09D3AF38F0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C8C489-479A-440C-B6C8-09D3AF38F0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C8C489-479A-440C-B6C8-09D3AF38F0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99A4FB27-0098-4C20-90A7-8BBF2B6D14AA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://daltfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\MDSY.Framework.IO.Online\\MDSY.Framework.IO.Online.csproj
+		SccProjectName1 = ../MDSY.Framework.IO.Online
+		SccLocalPath1 = ..\\MDSY.Framework.IO.Online
+		SccProjectUniqueName2 = MDSY.Framework.IO.RemoteBatch.csproj
+		SccLocalPath2 = .
+	EndGlobalSection
+EndGlobal

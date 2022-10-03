@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <!--
+    InversionContainer app config syntax:
+    <add key="InterfaceNameImplementer" value="true"/>                                  <- value indicates whether mapping is enabled
+    <add key="InterfaceNameImplementer_ImplementingType" value="MyImplementingClass"/>  <- the class which implements the interface
+    <add key="InterfaceNameImplementer_Assembly" value="MyImplementingAssembly"/>       <- the assembly which contains the implementing class 
+    
+    *optional:
+    <add key="InterfaceNameImplementer_AssemblyPath" value="MyImplementingAssembly"/>   <- physical path to the assembly
+    
+    **optional:
+    <add key="IFileLinkImplementer_FullAssemblyName" value="Qualified Assembly Name"/>  <- for loading from the GAC
+    
+    if the assembly is local (in the same folder as the Framework) you need not supply an assembly path. 
+    * To load from an assembly at a different location, supply the assembly path.
+    ** To load from an assembly that is in the GAC, supply the fully qualified name (version, culture, 
+       and PublicKeyToken). Name will be retrieved from the [Interface]Implementer_Assembly key. 
+       
+    If both the _AssemblyPath and _FullAssemblyName keys are supplied, _AssemblyPath will be ignored in favor of 
+    loading from the GAC. 
+    -->
+
+    <!--Option 1; load from local assembly-->
+    <add key="IMyInterfaceImplementer" value="true"/>
+    <add key="IMyInterfaceImplementer_ImplementingType" value="MyImplementation"/>
+    <add key="IMyInterfaceImplementer_Assembly" value="myCustomImpl.IO.dll"/>
+
+    <!--Option 2; load from assembly at specified path-->
+    <add key="IFileHandlerImplementer" value="true"/>
+    <add key="IFileHandlerImplementer_ImplementingType" value="FileHandlerImplementation"/>
+    <add key="IFileHandlerImplementer_Assembly" value="myCustomImpl.IO.dll"/>
+    <add key="IFileHandlerImplementer_AssemblyPath" value="C:\myDir"/>
+
+    <!--Option 3; load from assembly in GAC-->
+    <add key="IFileLinkImplementer" value="true"/>
+    <add key="IFileLinkImplementer_ImplementingType" value="FileLinkImplementation"/>
+    <add key="IFileLinkImplementer_Assembly" value="myCustomImpl.IO.dll"/>
+    <add key="IFileLinkImplementer_FullAssemblyName" value="Version=1.0.2013.0, Culture=neutral, PublicKeyToken=8742b27f8da049c3"/>
+
+  </appSettings>
+</configuration>

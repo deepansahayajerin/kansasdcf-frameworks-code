@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<AssemblyVersion>1.6.0.1</AssemblyVersion>
+		<FileVersion>1.6.0.1</FileVersion>
+		<Version>1.6.0.1</Version>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\..\bin</OutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>..\..\bin</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Configuration.cs" />
+		<Compile Remove="Extensions\BatchBaseExtensions.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Buffer\MDSY.Framework.Buffer.BaseClasses\MDSY.Framework.Buffer.BaseClasses.csproj" />
+	  <ProjectReference Include="..\..\Buffer\MDSY.Framework.Buffer.Common\MDSY.Framework.Buffer.Common.csproj" />
+	  <ProjectReference Include="..\..\Buffer\MDSY.Framework.Buffer.Extensions\MDSY.Framework.Buffer.Extensions.csproj" />
+	  <ProjectReference Include="..\..\Buffer\MDSY.Framework.Buffer.Interfaces\MDSY.Framework.Buffer.Interfaces.csproj" />
+	  <ProjectReference Include="..\..\Buffer\MDSY.Framework.Buffer.Services\MDSY.Framework.Buffer.Services.csproj" />
+	  <ProjectReference Include="..\..\Configuration\MDSY.Framework.Configuration.Common\MDSY.Framework.Configuration.Common.csproj" />
+	  <ProjectReference Include="..\..\Interfaces\MDSY.Framework.Interfaces\MDSY.Framework.Interfaces.csproj" />
+	</ItemGroup>
+
+</Project>
